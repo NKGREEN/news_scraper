@@ -1,1 +1,1 @@
-# news_scraper
+# :newspaper: New Scraper
