@@ -18,5 +18,22 @@ app.listen(PORT, function() {
     console.log("Listening on port: " + PORT);
   });
   
+app.get("/", function(req,res){
+res.render("home")
+})
 
+//Load first page of Comic Book Resources 
+request('https://cbr.com', function (error, response, html) {
+  if (!error && response.statusCode == 200) {
+    console.log(html);
+  }
+});
 
+//sliding nav bar
+$(document).ready(function(){
+    $('.sidenav').sidenav();  
+    $('.tabs').tabs();
+    $(document).ready(function(){
+      $('.tooltipped').tooltip();
+    });
+  });
