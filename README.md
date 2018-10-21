@@ -1,4 +1,4 @@
-# :newspaper: <h1 align="center">News Scraper</h1>
+# :newspaper: <h1 align="center">CBR News Scraper</h1>
 
 <p align="center">
   <a href="http://forthebadge.com/" target="_blank">
@@ -7,26 +7,27 @@
 
 ## Overview
 
-News Scraper is a web app that lets users view and leave comments on the latest comics news from Comic Book Resources (https://cbr.com/).
+News Scraper is a web app that lets users view and leave comments on the latest comics news exclusives from Comic Book Resources (https://www.cbr.com/category/cbr-exclusives/).
 
 ### Resources
 
 
-## Deployment
+# :rocket: Deployment
 
 ![Heroku logo](https://d4yt8xl9b7in.cloudfront.net/assets/home/logotype-heroku.png) View app on Heroku
-
+https://cbnews-scraper.herokuapp.com/
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
- 
+* [Express]
+* [Express-Handlebars]
+* [Mongoose]
+* [Cheerio]
+* [Axios]
 
-## Authors
+✍🏾 ## Authors
 
-* **Nadia Green** - [NKGREEN](https://github.com/NKGRREN)
+ **Nadia Green** - [NKGREEN](https://github.com/NKGREEN)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
